@@ -1,0 +1,50 @@
+
+
+.title{
+    width: 80%;
+}
+
+.title_box{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title_box p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.title_box h2{
+    font-size: 3rem;
+    line-height: 0;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 425px) {
+    .title{
+        width: 90%;
+        align-self: center;
+        /* align-self: center; */
+    }
+
+    .title_box{
+        padding: 2rem;
+        width: 70rem;
+        margin: 0 auto;
+   
+    }
+
+
+    /* .title_box{
+        width: 90%;
+    } */
+
+    .title_box p{
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+
+    .title_box h2{
+        font-size: 5rem;
+        line-height: 0;
+    }
+}
